@@ -1,8 +1,10 @@
 <form method="post" action="cible.php"<form action="cible.php" method="post">
 	<p>
-	    <input type="text" name="prenom" value="''" /><br>
-	    <input type="password" name="crypt" value=" '' " /><br>
+	    <input type="text" name="prenom" placeholder="Pseudo" /><br>
+	    <input type="password" name="crypt" placeholder="Password"  /><br>
 	    <input type="submit" value="Submit" />
 	</p>
 </form>
+
+
 

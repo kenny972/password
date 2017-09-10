@@ -1,2 +1,4 @@
-<?php echo $_POST['prenom']; ?><br>
-<?php echo $_POST['crypt']; ?>
+<?php echo htmlspecialchars($_POST['prenom']); ?><br>
+<?php echo htmlspecialchars($_POST['crypt']); ?>
+
+
